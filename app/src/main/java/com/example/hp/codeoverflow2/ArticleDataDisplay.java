@@ -17,7 +17,5 @@ public class ArticleDataDisplay extends AppCompatActivity {
         Bundle bundle = getIntent().getExtras();
         String data = bundle.getString("data");
         tv.setText(data);
-
-
     }
 }

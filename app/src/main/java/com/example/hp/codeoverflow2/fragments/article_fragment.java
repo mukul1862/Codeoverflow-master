@@ -48,8 +48,6 @@ public class article_fragment extends Fragment implements AdapterView.OnItemClic
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        //Log.d("survey",list.toString());
-
         return inflater.inflate(R.layout.activity_article_fragment, container, false);
     }
 
