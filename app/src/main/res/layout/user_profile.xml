@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:background="#E0E0E0"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:gravity="center">
 
     <ImageView
         android:id="@+id/profile_pic"
@@ -10,50 +11,52 @@
         android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="28dp"
         android:src="@drawable/user" />
 
     <TextView
+        android:id="@+id/name"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name: Pritish Thakkar"/>
+
+
+    <TextView
         android:id="@+id/number"
-        android:textColor="#616161"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/profile_pic"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:text="Contact Number: 9023304061"/>
 
-    <EditText
-        android:id="@+id/editText7"
-        android:textColor="#616161"
+    <TextView
+        android:id="@+id/College"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/number"
-        android:layout_below="@+id/number"
-        android:layout_marginTop="43dp"
-        android:ems="10"
-        android:inputType="phone"
-        android:text="Phone"
-        android:visibility="invisible"/>
+        android:text="College: PEC"/>
+    <TextView
+        android:id="@+id/Karma"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Karma Points: 0"/>
 
-    <Button
-        android:id="@+id/button2"
+    <TextView
+        android:id="@+id/myarticle"
+        android:textColor="@android:color/black"
+        android:textSize="24dp"
         android:layout_width="wrap_content"
-        android:textColor="#616161"
         android:layout_height="wrap_content"
-        android:layout_marginTop="66dp"
-        android:text="SUBMIT"
-        android:layout_below="@+id/editText7"
-        android:layout_alignStart="@+id/profile_pic"
-        android:visibility="invisible"/>
+        android:text="My articles: 0"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Write Article"
-        android:layout_below="@id/button2"
-        android:layout_centerInParent="true"
         android:id="@+id/article"/>
 
-</RelativeLayout>
+</LinearLayout>

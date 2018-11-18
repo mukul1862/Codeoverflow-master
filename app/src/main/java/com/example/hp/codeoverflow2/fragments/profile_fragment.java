@@ -42,11 +42,11 @@ public class profile_fragment extends Fragment implements AdapterView.OnItemClic
         view= inflater.inflate(R.layout.user_profile, container, false);
 
         b1 = (Button)view.findViewById(R.id.article);
-        tv = (TextView)view.findViewById(R.id.number);
+//        tv = (TextView)view.findViewById(R.id.number);
 
         Bundle bundle = getActivity().getIntent().getExtras();
         String phone = bundle.getString("phone");
-        tv.setText(phone.toString());
+//        tv.setText(phone.toString());
 
         b1.setOnClickListener(this);
 
