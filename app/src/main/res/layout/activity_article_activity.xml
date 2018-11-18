@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+    android:background="#212121"
+        android:layout_height="match_parent"
+        tools:context="com.example.hp.codeoverflow2.article_activity">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <EditText
+            android:id="@+id/editText5"
+        android:textColor="#FFFFFF"
+        android:editable="false"
+        android:inputType="none"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:ems="10"
+            android:text="With more than 80 percent market share, Android is the dominant mobile operating system today. It's running on countless models of smartphones and tablets, as well as many other devices. Judging by this, one would think that programming for Android is simple and easy. Or is it?
+
+A few years ago, Miley Cyrus was still singing country music, Justin Bieber wore his famous “Bieber” haircut, Malcolm still played in AC/DC and Android development was quite complex. Android developers had a lot of problems with developing even the simplest possible applications for Android OS.Buggy IDEs - have you ever tried to repair your car with a shovel? Or tried to pick up girls while driving your grandfather's 40-year old Yugo? In the Android world, we had an official IDE for Android development - Eclipse, which had a ton of problems and could drive you mad in 10 minutes. The Eclipse ADT plugin was just buggy, slow and unfriendly for more complex projects. We quickly got sick of it and were praying for a miracle.
+
+OS fragmentation - Gingerbread (2.3.7) occupied quite a market share (at least 15-20 percent) of Android OS versions. As you already know, Android underwent complete overhaul with the version 4.0 (Ice Cream Sandwich) - we got new UI elements, new APIs for device hardware, new screen densities... This resulted in us having to be careful to optimize and program our apps to work well on the new as well ancient versions of Android. All this greatly affected our development process and resulted in prolonged development time with more bugs and crashes.
+
+Slow emulators - We need to test our apps on different Android OS versions and screen dimensions, so we have to buy at least 20 different Android devices. Sounds crazy? OK, so we can use emulators. But have you ever tried to use the default Android emulator? It's so painfully slow that you'll soon catch yourself counting cars parked in front of your office while your app is being deployed to your emulator.
+
+UI - Android apps were boring. If you commit blasphemy and take a look at iOS apps, you will see that they are full of life and colors. Everything is animated, transforming, going from left to right, right to left and so on... Our apps were static, and if we wanted to enrich our UX, the old Gingerbread would have soon killed all our hopes and wishes.
+
+But that was like so 2013!"
+             />
+</ScrollView>
+
+</RelativeLayout>

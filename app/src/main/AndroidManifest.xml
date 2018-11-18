@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hp.codeoverflow2">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login_activity" />
+        <activity android:name=".signup_activity" />
+        <activity android:name=".fragments.profile_fragment" />
+        <activity android:name=".fragments.home_fragment" />
+        <activity android:name=".fragments.article_fragment" />
+        <activity
+            android:name=".home_activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".article_activity" />
+        <activity android:name=".Article_Submission" />
+        <activity android:name=".ShowArticles" />
+        <activity android:name=".ArticleDataDisplay"></activity>
+    </application>
+
+</manifest>
